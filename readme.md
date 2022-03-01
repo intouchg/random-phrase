@@ -1,4 +1,4 @@
-# @i/random-phrase
+# @intouchg/random-phrase
 
 Random phrase generator for Node.js using local JSON dictionaries
 
@@ -34,7 +34,7 @@ These next two options allow you to generate phrases based on a phrase length (i
 Calling `randomPhrase` without any config options will use the default template option. Generated phrases are not checked for duplicate words.
 
 ```js
-import { randomPhrase, randomAdjective, randomNoun, randomWord } from '@i/random-phrase'
+import { randomPhrase, randomAdjective, randomNoun, randomWord } from '@intouchg/random-phrase'
 
 const phrase1 = randomPhrase() // Uses the template '[adjective]-[word]-[noun]' by default
 const phrase2 = randomPhrase({ length: 5, delimiter: '+' })
