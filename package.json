@@ -1,5 +1,5 @@
 {
-  "name": "@i/random-phrase",
+  "name": "@intouchg/random-phrase",
   "version": "0.1.0",
   "description": "Random phrase generator for Node.js using local JSON dictionaries",
   "main": "dist/index.cjs.js",
